@@ -1,0 +1,112 @@
+
+body{
+	background-color:lightgray;
+	margin:0 auto;
+	font-family:Helvetica, sans-serif;
+}
+div{
+	max-width:60%;
+	background-color:white;
+	margin:30px auto;
+}
+img{
+	
+}
+nav{
+	text-align: center;
+	padding: 10px 20px;
+	position:sticky;
+	font-weight:bold;
+	background-color: #392e4a;
+	display:sticky;
+}
+nav a:link,:visited{
+	text-decoration: none;
+	color: #f2f2f2;
+	padding: 10px 20px;
+}
+
+a:hover{
+	background-color: #2b1992;
+}
+
+img{
+	border-radius: 50%;
+}
+header{
+	color:black;
+	text-align:center;
+	padding:15px;
+	background-color: lightblue;
+}
+ footer{
+	background-color:#27ae60;
+	color:white;
+	text-align:center;
+	padding:15px;
+ }
+/*padding between leff and right border*/
+section{
+	padding: 0 20px;
+}
+
+/* header inside section*/
+section h2 {
+	border-bottom: 2px solid #333;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	color: #333;
+}
+/*design un ordered list*/
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+ul li {
+	background:#abb7b7;
+	margin: 5px 0;
+	padding: 10px;
+	border-left: 4px solid #333;
+}
+
+/*table*/
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 10px;
+}
+th, td{
+	border:2px solid #ddd;
+	padding: 5px 15px;
+}
+table tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+table tr:hover{
+	background-color: #ddd;
+}
+th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color:#392e4a;
+	color: white;
+  }
+
+  /*form*/
+  .contact{
+	   	padding: 20px;
+  }
+  .w{
+	  width:100%
+  }
+#button{
+	width:100%;
+	background-color:#4CAF50;
+	color:white;
+	
+}
+#button:hover {
+    background-color: #45a049;
+}
